@@ -5,23 +5,13 @@ Confronto tra i metodi **Frank–Wolfe (FW)** e **Sequential Minimal Optimizatio
 ## Requisiti
 
 * **Conda** installato (Anaconda o Miniconda).
-* File **`optimization.yaml`** con le dipendenze del progetto.
+* File **`optimization.yml`** con le dipendenze del progetto.
 
 ## Riproduzione dei risultati
 
 ### 1) Creazione dell’environment Conda `opt`
-
-Se il file `optimization.yml` contiene già `name: opt`:
-
 ```bash
-conda env create -f optimization.yaml
-conda activate opt
-```
-
-In alternativa, per forzare il nome:
-
-```bash
-conda env create -n opt -f optimization.yaml
+conda env create -f optimization.yml
 conda activate opt
 ```
 
