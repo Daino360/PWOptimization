@@ -1,32 +1,33 @@
 # PWOptimization
 
-Confronto tra i metodi **Frank–Wolfe (FW)** e **Sequential Minimal Optimization (SMO, variante MVP)** per la risoluzione del **problema duale SVM**.
+Comparison between **Frank–Wolfe (FW)** and **Sequential Minimal Optimization (SMO, MVP variant)** methods for solving the **SVM dual problem**.
 
-## Requisiti
+## Requirements
 
-* **Conda** installato (Anaconda o Miniconda).
-* File **`optimization.yml`** con le dipendenze del progetto.
+* **Conda** installed (Anaconda or Miniconda).
+* **`optimization.yml`** file containing the project dependencies.
 
-## Riproduzione dei risultati
+## Reproducing the Results
 
-### 1) Creazione dell’environment Conda `opt`
+### 1) Create the Conda environment `opt`
 ```bash
 conda env create -f optimization.yml
 conda activate opt
-```
+````
 
-### 2) Lancio degli esperimenti
+### 2) Run the experiments
 
-Esegui:
+Execute:
 
 ```bash
 python optimization.py
 ```
 
-> Gli output (accuratezze, tempi, metriche) verranno stampati/ salvati secondo quanto previsto dallo script.
+> Outputs (accuracies, timings, metrics) will be printed/saved according to the script configuration.
 
-## Rappresentazione dei grafici
+## Graph Visualization
 
-Per problemi di rendering grafico sulle macchine dell’Università, i grafici sono stati generati in **Google Colab** utilizzando la funzione `plot_methods_comparison`.
-Notebook Colab per la rappresentazione grafica:
-👉 [Apri su Google Colab](https://colab.research.google.com/drive/1s8AJa46PFZQc8DH2OVR-neCOXgTnVibg)
+Due to graphical rendering issues on the University machines, the plots were generated using **Google Colab** via the `plot_methods_comparison` function.
+
+Colab notebook for graph visualization:
+👉 [Open in Google Colab](https://colab.research.google.com/drive/1s8AJa46PFZQc8DH2OVR-neCOXgTnVibg)
