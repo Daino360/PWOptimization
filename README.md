@@ -1,5 +1,13 @@
 # PWOptimization
 
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-0.24-orange)
+![PyTorch](https://img.shields.io/badge/PyTorch-1.13-red)
+![NumPy](https://img.shields.io/badge/NumPy-1.24-blue)
+![Pandas](https://img.shields.io/badge/Pandas-1.5-lightgrey)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-3.7-purple)
+![License](https://img.shields.io/badge/license-MIT-green)
+
 Comparison between **Frank–Wolfe (FW)** and **Sequential Minimal Optimization (SMO, MVP variant)** methods for solving the **SVM dual problem**.
 
 ## Requirements
